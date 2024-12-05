@@ -1,6 +1,6 @@
 /* Body: Perbaikan dan optimalisasi */
 body {
-    background-color: #ecdfcc;
+    background-color: #cee5f2;
     margin: 0;
     font-family: 'Montserrat', serif;
     display: flex;
@@ -18,7 +18,7 @@ img {
 
 /* Container Utama */
 .container {
-    background-color: #697565;
+    background-color: #7c98b3;
     padding: 20px;
     border-radius: 10px;
     margin: 50px;
@@ -31,7 +31,7 @@ img {
 
 /* Kontainer "lengkap" */
 .lengkap {
-    background-color: #3c3d37;
+    background-color: #accbe1;
     border-radius: 10px;
     padding: 20px;
     margin: auto;
@@ -40,11 +40,25 @@ img {
     max-width: 500px;
     width: 100%; /* Responsif */
     box-sizing: border-box;
+    color:#536b78;
+}
+
+.reminder{
+    background-color: #accbe1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan */
+    text-align: center;
+    max-width: 500px;
+    width: 100%; /* Responsif */
+    box-sizing: border-box;
+    color:#536b78;
 }
 
 /* Link */
 a {
-    background-color: #1e201e;
+    background-color: #536b78;
     padding: 10px 20px;
     text-decoration: none;
     color: #ecdfcc;
@@ -54,13 +68,13 @@ a {
 }
 
 a:hover {
-    background-color: #697565;
+    background-color: #7c98b3;
     transform: scale(1.1);
 }
 
 /* Tombol untuk Musik */
 #toggleSound {
-    background-color: #ff4d4d;
+    background-color: #536b78;
     color: #ffffff;
     border: none;
     padding: 12px 25px;
@@ -73,7 +87,7 @@ a:hover {
 }
 
 #toggleSound:hover {
-    background-color: #ff6666;
+    background-color: #637081;
     transform: scale(1.1);
 }
 
