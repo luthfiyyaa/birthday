@@ -1,0 +1,106 @@
+/* Body: Perbaikan dan optimalisasi */
+body {
+    background-color: #ecdfcc;
+    margin: 0;
+    font-family: 'Montserrat', serif;
+    display: flex;
+    justify-content: center; /* Menengahkan secara horizontal */
+    align-items: center;    /* Menengahkan secara vertikal */
+    min-height: 100vh;       /* Tinggi minimal penuh layar */
+    box-sizing: border-box;  /* Menghindari konflik lebar/padding */
+}
+
+/* Gambar */
+img {
+    width: 300px;
+    border-radius: 50px;
+}
+
+/* Container Utama */
+.container {
+    background-color: #697565;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    max-width: 700px;
+    width: 100%; /* Fleksibel di layar kecil */
+    color: #ecdfcc;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+}
+
+/* Kontainer "lengkap" */
+.lengkap {
+    background-color: #3c3d37;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan */
+    text-align: center;
+    max-width: 500px;
+    width: 100%; /* Responsif */
+    box-sizing: border-box;
+}
+
+/* Link */
+a {
+    background-color: #1e201e;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ecdfcc;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: bounce 1s infinite alternate;
+}
+
+a:hover {
+    background-color: #697565;
+    transform: scale(1.1);
+}
+
+/* Tombol untuk Musik */
+#toggleSound {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 15px;
+    animation: bounce 1s infinite alternate;
+}
+
+#toggleSound:hover {
+    background-color: #ff6666;
+    transform: scale(1.1);
+}
+
+/* Media Query untuk Layar Kecil */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    .lengkap {
+        width: 90%; /* Sesuai ukuran layar kecil */
+        padding: 15px;
+    }
+
+    img {
+        width: 200px; /* Perkecil gambar */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        font-size: 0.9em; /* Perkecil ukuran teks */
+    }
+
+    #toggleSound {
+        font-size: 0.9em; /* Perkecil ukuran tombol */
+        padding: 10px 20px;
+    }
+}
