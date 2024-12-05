@@ -1,6 +1,6 @@
 /* Body: Perbaikan dan optimalisasi */
 body {
-    background-color: #cee5f2;
+    background: linear-gradient(135deg, #cee5f2, #7c98b3);
     margin: 0;
     font-family: 'Montserrat', serif;
     display: flex;
@@ -32,39 +32,43 @@ img {
 /* Kontainer "lengkap" */
 .lengkap {
     background-color: #accbe1;
-    border-radius: 10px;
-    padding: 20px;
-    margin: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan */
-    text-align: center;
-    max-width: 500px;
-    width: 100%; /* Responsif */
-    box-sizing: border-box;
-    color:#536b78;
+    padding: 5px 30px 20px 30px; /* Tambahkan ruang di dalam */
+    border-radius: 15px; /* Membuat sudut membulat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+    max-width: 400px; /* Batas lebar maksimal */
+    width: 90%; /* Responsif pada layar kecil */
+    margin: 20px auto; /* Buat elemen terpusat */
+    text-align: center; /* Pusatkan teks */
+    line-height: 1.6; /* Atur jarak antar baris teks */
+    font-family: 'Montserrat', sans-serif;
+    color: #4a4a4a; /* Warna teks yang lebih netral */
 }
 
 .reminder{
     background-color: #accbe1;
-    border-radius: 10px;
-    padding: 10px;
-    margin: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan */
-    text-align: center;
-    max-width: 500px;
-    width: 100%; /* Responsif */
-    box-sizing: border-box;
-    color:#536b78;
+    padding: 5px 30px 20px 30px; /* Tambahkan ruang di dalam */
+    border-radius: 15px; /* Membuat sudut membulat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan */
+    max-width: 400px; /* Batas lebar maksimal */
+    width: 90%; /* Responsif pada layar kecil */
+    margin: 20px auto; /* Buat elemen terpusat */
+    text-align: center; /* Pusatkan teks */
+    line-height: 1.6; /* Atur jarak antar baris teks */
+    font-family: 'Montserrat', sans-serif;
+    color: #4a4a4a; /* Warna teks yang lebih netral */
 }
 
 /* Link */
 a {
-    background-color: #536b78;
-    padding: 10px 20px;
+    background-color: #4a6479; /* Warna tombol */
+    color: #ffffff; /* Warna teks pada tombol */
+    padding: 10px 20px; /* Ruang dalam tombol */
+    border: none;
+    border-radius: 10px; /* Membuat sudut tombol membulat */
+    font-size: 1em; /* Ukuran font pada tombol */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     text-decoration: none;
-    color: #ecdfcc;
-    border-radius: 10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    animation: bounce 1s infinite alternate;
 }
 
 a:hover {
