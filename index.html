@@ -45,12 +45,12 @@
         </script>
 
         <div class="lengkap">
-            <p>Mau tau pesan lengkapnya nggak? Buka di sini yaah?</p>
-            <a href="pesan.html">Lihat Pesan</a>
+            <p>Mau tau pesan lengkapnya nggak? Buka di sini yaa!!</p>
+            <a href="pesan.html">Wajib Dibuka</a>
         </div>
 
         <audio id="birthdaySong" src="Happy_Birthday__Piano_Version__[_YouConvert.net_].mp3" autoplay muted></audio>
-        <button id="toggleSound">Matikan Musik ❌</button>
+        <button id="toggleSound">Matiin ajalah ❌</button>
     </div>
 
     
@@ -62,17 +62,17 @@
         // Mulai memutar musik saat halaman dimuat
         audio.muted = false; // Hapus mute
         audio.play().catch(() => {
-            toggleButton.textContent = 'Putar Musik 🎶';
+            toggleButton.textContent = 'Ada musiknya ni bang 🎶';
         });
 
         // Tambahkan event listener untuk tombol
         toggleButton.addEventListener('click', () => {
             if (audio.paused) {
                 audio.play();
-                toggleButton.textContent = 'Matikan Musik ❌';
+                toggleButton.textContent = 'Matiin ajalah ❌';
             } else {
                 audio.pause();
-                toggleButton.textContent = 'Putar Musik 🎶';
+                toggleButton.textContent = 'Ada musiknya ni bang 🎶';
             }
         });
     });
